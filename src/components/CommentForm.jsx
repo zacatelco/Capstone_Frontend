@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "./CommentForm.css"; // We'll create this CSS file
+import "./CommentForm.css"; 
+const API_BASE_URL = import.meta.env.VITE_API_URL || import.meta.env.VITE_API_BASE_URL; 
+
+
 
 const CommentForm = ({ postId }) => {
   const [comment, setComment] = useState("");

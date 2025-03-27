@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { fetchRandomUser } from '../api/api';
 import './ProfilePage.css'; 
@@ -44,6 +43,8 @@ const ProfileCard = () => {
             <p><span className="detail-label">From:</span> {user.location.city}, {user.location.country}</p>
             <p><span className="detail-label">Status:</span> Online Now!</p>
             <p><span className="detail-label">Last Login:</span> {new Date(user.registered.date).toLocaleDateString()}</p>
+            <button className="myspace-button">Edit Profile</button>
+
           </div>
         </div>
 
@@ -53,6 +54,7 @@ const ProfileCard = () => {
             <button className="myspace-button">Message</button>
             <button className="myspace-button">Add Friend</button>
             <button className="myspace-button">Add to Favorites</button>
+
           </div>
         </div>
       </div>

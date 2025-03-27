@@ -65,10 +65,14 @@ const FriendsList = () => {
                 {" "}
                 Username: {user.login.username}
               </p>
+              <button >Add Friend</button>
+              <button >Send Message</button>
+
             </li>
           )
         )}
       </ul>
+
     </div>
   );
 };

@@ -19,7 +19,7 @@ const ProfilePage = ({ user = {}, posts = [], friends = [] }) => {
               {posts.length > 0 ? (
                   <ul className="posts-list">
                       {posts.map(post => (
-                          <li key={post._id}>{post.content}</li>
+                          <li key={post._id}>{post.content} - {post.author?.username || "Unknown"}</li>
                       ))}
                   </ul>
               ) : (
