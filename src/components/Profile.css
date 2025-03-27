@@ -1,0 +1,38 @@
+.profile-layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .profile-sidebar {
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+  }
+  
+  .profile-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 768px) {
+    .profile-layout {
+      grid-template-columns: 1fr;
+    }
+    
+    .profile-sidebar {
+      position: static;
+    }
+  }

@@ -1,0 +1,62 @@
+.friends-container {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 80;
+  padding: 10px;
+}
+
+.friends-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.friend-card {
+  background: #ffffff;
+  border: 2px solid #ff6600;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}
+
+.friend-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+
+.friend-name {
+  font-size: 14px;
+  color: #003366;
+  margin: 5px 0;
+}
+
+.friend-username {
+  font-size: 12px;
+  color: #ff6600;
+}
+
+.friend-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 5px 0;
+  font-size: 14px;
+  color: #003366;
+}
+.location-icon {
+  color: #ff6600;
+  font-size: 20px;
+}
+
+.friend-name {
+  margin: 5px 0 3px 0;
+}
+
+.friend-username {
+  margin: 3px 0 5px 0;
+}

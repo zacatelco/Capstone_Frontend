@@ -1,0 +1,85 @@
+
+.music-page {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  
+  .music-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #003366; /* MySpace Blue */
+  }
+  
+  .music-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Each Section (Artists & Songs) */
+  .music-section {
+    width: 45%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .music-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .music-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 15px 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  /* Images */
+  .music-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  /* Artist & Song Names */
+  .music-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .music-name a {
+    text-decoration: none;
+    color: #003366; /* MySpace Blue */
+  }
+  
+  .music-name a:hover {
+    color: #ffcc00; /* MySpace Yellow */
+  }
+  
+  /* Listeners Count */
+  .music-listeners {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .music-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .music-section {
+      width: 90%;
+    }
+  }

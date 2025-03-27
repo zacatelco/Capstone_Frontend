@@ -1,0 +1,103 @@
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+.myspace-footer {
+    background-color: #f0f0f0;
+    color: #0033cc;
+    font-family: Arial, sans-serif;
+    padding: 8px 0;
+    border-top: 2px solid #0033cc;
+    margin-top: auto; /* This pushes footer to bottom */
+    width: 100%;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-size: 12px;
+  }
+  
+  .footer-section {
+    width: 30%;
+    padding: 0 5px;
+  }
+  
+  .footer-heading {
+    color: #0033cc;
+    font-size: 13px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 12px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .footer-links li {
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .footer-links a {
+    color: #0033cc;
+    text-decoration: none;
+    font-size: 11px;
+    white-space: nowrap;
+    padding: 2px 0;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 6px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-color: #0033cc;
+    color: white;
+    text-align: center;
+    line-height: 22px;
+    font-size: 10px;
+    border-radius: 3px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 8px;
+    padding-top: 6px;
+    border-top: 1px solid #ccc;
+    font-size: 9px;
+    color: #000;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    padding: 1px 0;
+  }

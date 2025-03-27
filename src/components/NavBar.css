@@ -1,0 +1,46 @@
+
+.navbar {
+    background-color: #003366; /* MySpace Blue */
+    padding: 10px 0;
+    font-family: Arial, sans-serif;
+    border-bottom: 3px solid #ffcc00; 
+  }
+  
+  .navbar-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* MySpace Logo */
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .nav-item:hover {
+    background-color: #ffcc00; /* Yellow hover effect */
+    color: #003366; /* Text turns blue */
+    border-radius: 5px;
+  }
+  

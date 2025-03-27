@@ -1,0 +1,84 @@
+.myspace-create-post {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.post-title {
+    color: #eea13d;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.myspace-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    resize: vertical;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.myspace-textarea:focus {
+    outline: 2px solid #0066cc;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.myspace-button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.myspace-button:hover {
+    background-color: #004d99;
+}
+
+.myspace-button.post-submit {
+    background-color: #00aa00; /* MySpace "go" green */
+}
+
+.myspace-button.post-submit:hover {
+    background-color: #008800;
+}
+
+.myspace-button.cancel {
+    background-color: #cccccc;
+    color: #333;
+}
+
+.myspace-button.cancel:hover {
+    background-color: #999999;
+}
+
+/* MySpace-style alerts */
+.alert-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffcc00;
+    padding: 20px;
+    border: 3px solid #ff6600;
+    z-index: 1000;
+    text-align: center;
+    font-weight: bold;
+    width: 250px;
+}

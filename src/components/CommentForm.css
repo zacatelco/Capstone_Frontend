@@ -1,0 +1,73 @@
+.myspace-comment-form {
+    background-color: #f0f0f0;
+    border: 2px solid #0066cc;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .comment-title {
+    color: #0066cc;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .myspace-textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    resize: vertical;
+    margin-bottom: 10px;
+  }
+  
+  .myspace-textarea:focus {
+    outline: 2px solid #0066cc;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .myspace-button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  
+  .myspace-button:hover {
+    background-color: #004d99;
+  }
+  
+  .myspace-button.cancel {
+    background-color: #cccccc;
+    color: #333;
+  }
+  
+  .myspace-button.cancel:hover {
+    background-color: #999999;
+  }
+  
+  /* MySpace-style alert */
+  .alert-message {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffcc00;
+    padding: 20px;
+    border: 3px solid #ff6600;
+    z-index: 1000;
+    text-align: center;
+    font-weight: bold;
+  }
