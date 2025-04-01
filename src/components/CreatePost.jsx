@@ -1,6 +1,8 @@
 import { useState } from "react";
 import axios from "axios";
 import "./CreatePost.css"; 
+const API_BASE_URL =import.meta.env.VITE_API_BASE_URL; 
+
 
 const CreatePost = ({ onPostCreated }) => {
     const [content, setContent] = useState("");
@@ -13,8 +15,8 @@ const CreatePost = ({ onPostCreated }) => {
         }
 
         try {
-            const res = await axios.post("http://localhost:4000/api/posts", {
-                author: "67e534544eb5f9a2bb9ce331", // TEMP: Replace with actual user ID
+            const res = await axios.post(`${API_BASE_URL}/api/posts`, {
+                author: "{users._id}", // TEMP: Replace with actual user ID
                 content: content,
             });
 

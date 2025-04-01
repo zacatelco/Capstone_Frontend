@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./CommentForm.css"; 
-const API_BASE_URL = import.meta.env.VITE_API_URL || import.meta.env.VITE_API_BASE_URL; 
+const API_BASE_URL =import.meta.env.VITE_API_BASE_URL; 
 
 
 
@@ -15,7 +15,7 @@ const CommentForm = ({ postId }) => {
         content: comment,
         author: "USER_ID", 
       };
-      await axios.post(`/api/posts/${postId}/comments`, commentData);
+      await axios.post(`${API_BASE_URL}/api/posts/${postId}/comments`, commentData);
       setComment("");
     } catch (error) {
       console.error("Error posting comment:", error);
